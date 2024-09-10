@@ -1,0 +1,19 @@
+{
+  "name": "fk-automation-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
+  },
+  "dependencies": {
+    "@testla/screenplay-playwright": "^1.7.0"
+  }
+}
